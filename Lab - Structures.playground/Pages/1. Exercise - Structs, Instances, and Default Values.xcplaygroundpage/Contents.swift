@@ -21,14 +21,11 @@ var someplace = GPS(longitude: 0.0, latitude: 0.0)
  */
 someplace.longitude =  0.125226
 
-/*:
- Now imagine you are making a social app for sharing your favorite books. Create a `Book` struct with four variable properties: `title`, `author`, `pages`, and `price`. The default values for both `title` and `author` should be an empty string. `pages` should default to 0, and `price` should default to 0.0.
- */
 
 
 /*:
  Create a variable instance of `Book` called `favoriteBook` without supplying any arguments. Print out the title of `favoriteBook`. Does it currently reflect the title of your favorite book? Probably not. Change all four properties of `favoriteBook` to reflect your favorite book. Then, using the properties of `favoriteBook`, print out facts about the book.
  */
-
+var favoriteBook = Book(title:"Book1")
 
 //: page 1 of 10  |  [Next: App Exercise - Workout Tracking](@next)
